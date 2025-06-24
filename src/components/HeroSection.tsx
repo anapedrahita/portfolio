@@ -1,5 +1,8 @@
 import React from 'react';
-import { ExternalLink, User, CheckCircle } from 'lucide-react';
+
+import avatar from '../assets/avatar.jpeg'; 
+import { ExternalLink, CheckCircle } from 'lucide-react';
+
 
 const HeroSection = () => {
   return (
@@ -16,11 +19,11 @@ const HeroSection = () => {
       <div className="mb-8 flex justify-center">
         <div className="w-32 h-32 lg:w-40 lg:h-40 bg-gradient-to-br from-teal-400 to-blue-500 rounded-full flex items-center justify-center shadow-2xl border-4 border-white/20 overflow-hidden">
           <img 
-            src="../avatar.jpeg"  // Reemplaza con la ruta de tu imagen
+            src="https://media.licdn.com/dms/image/v2/C4E03AQH4e3uLNtOufQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1594298625858?e=1756339200&v=beta&t=xg_IMiFhHTUJYg1VkxswEnQjJxQmqRk47WiuZ2nHpQs"
             alt="Foto de perfil"
             className="w-full h-full object-cover"
           />
-  </div>
+      </div>
 </div>
           {/* Name */}
           <h1 className="text-4xl lg:text-6xl font-bold mb-4 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
